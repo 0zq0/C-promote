@@ -77,7 +77,7 @@ int main()
 	ret2 = Max_Vowels(s, k);
 	printf("数组arr中的元音最大数目是：%d\n", ret1);
 	printf("字符串s中的元音最大数目是：%d\n", ret2);
-
+	printf("hello\n");
 	return 0;
 
 }
