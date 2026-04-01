@@ -1,0 +1,26 @@
+# Visual Studio 相关屏蔽规则
+/.vs/
+/x64/
+/Release/
+/Debug/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 编译生成的中间文件/可执行文件
+*.obj
+*.exe
+*.pdb
+*.idb
+*.log
+*.tlog
+*.lastbuildstate
+*.ilk
+*.manifest
+*.res
+*.pch
+
+# 其他通用屏蔽
+*.DS_Store
+Thumbs.db
