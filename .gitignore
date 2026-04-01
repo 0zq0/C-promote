@@ -1,26 +1,39 @@
-# Visual Studio 相关屏蔽规则
-/.vs/
-/x64/
-/Release/
-/Debug/
+# ==============================================
+# Visual Studio 自动生成文件（全部屏蔽）
+# ==============================================
+.vs/
+x64/
+Debug/
+Release/
+ipch/
+*.sln
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 
-# 编译生成的中间文件/可执行文件
+# 编译产生的中间文件
 *.obj
 *.exe
 *.pdb
-*.idb
+*.ilk
 *.log
 *.tlog
 *.lastbuildstate
-*.ilk
-*.manifest
+*.idb
 *.res
 *.pch
 
-# 其他通用屏蔽
-*.DS_Store
+# ==============================================
+# LeetCode 刷题专用（干净整洁）
+# ==============================================
+# 只保留 .c .cpp .h .hpp .md 等源码文件
+
+# ==============================================
+# 系统垃圾文件（Windows/Mac 都屏蔽）
+# ==============================================
 Thumbs.db
+.DS_Store
